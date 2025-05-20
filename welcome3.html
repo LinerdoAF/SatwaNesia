@@ -1,47 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="./output.css" rel="stylesheet" />
 
-  <!-- font -->
+  <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
-  <title>Welcome</title>
+  <title>Welcome 3</title>
 </head>
-<body class="bg-dark font-[Poppins]">
+<body class="bg-dark font-[Poppins] text-white min-h-screen flex items-center justify-center px-4">
 
-  <!-- Gambar utama -->
-  <div class="flex justify-center py-10 px-4">
-    <img class="w-[250px] sm:w-[300px] h-auto object-contain" src="3.png" alt="welcome3">
-  </div>
+  <div class="w-full max-w-md text-center space-y-6">
+    
+    <!-- Gambar utama -->
+    <img src="3.png" alt="welcome3" class="mx-auto w-3/4 max-w-xs h-auto object-contain" />
 
-  <!-- Judul -->
-  <div class="text-center py-5 px-4">
-    <h1 class="text-teks text-3xl sm:text-4xl font-bold">
-      Jelajahi <span class="text-4xl sm:text-5xl">Bedasarkan</span> <span class="text-abu text-3xl sm:text-4xl">Daerah</span>
+    <!-- Judul -->
+    <h1 class="text-teks text-3xl sm:text-4xl font-bold leading-snug">
+      Jelajahi Berdasarkan <span class="text-abu">Daerah</span>
     </h1>
-  </div>
 
-  <!-- Deskripsi -->
-  <div class="text-center py-3 px-4">
-    <h1 class="text-abu text-base sm:text-xl font-medium">
+    <!-- Deskripsi -->
+    <p class="text-abu text-base sm:text-lg font-medium px-2 leading-relaxed">
       Pilih provinsi atau pulau dan temukan satwa uniknya.
-    </h1>
-  </div>
+    </p>
 
-  <!-- Titik -->
-  <div class="flex justify-center py-3">
-    <img src="33.png" alt="titik" class="w-20 sm:w-auto h-auto object-contain">
-  </div>
+    <!-- Titik Navigasi -->
+    <img src="33.png" alt="Titik Navigasi" class="mx-auto w-16 h-auto object-contain" />
 
-  <!-- Tombol -->
-  <div class="flex justify-center py-5 px-4">
-    <a href="home1.html">
-      <button class="bg-ijo text-teks font-semibold text-xl sm:text-3xl py-2 px-8 sm:px-10 rounded-xl">
+    <!-- Tombol -->
+    <div>
+      <a href="home1.html" class="inline-block bg-ijo text-teks font-semibold text-lg px-8 py-3 rounded-full shadow-md hover:opacity-90 transition">
         Mulai Eksplorasi
-      </button>
-    </a> 
+      </a>
+    </div>
+
   </div>
 
 </body>
